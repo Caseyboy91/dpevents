@@ -1,7 +1,7 @@
-import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+
+import "./App.css";
 
 function App() {
   document.title = "DP Events";
@@ -9,11 +9,8 @@ function App() {
     <>
       <Header />
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes>
+        <Routes></Routes>
       </BrowserRouter>
-      <Footer />
     </>
   );
 }
