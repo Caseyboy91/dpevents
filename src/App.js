@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Header />
-      <body className="bg-light-subtle bg-gradient">
+      <body className="bg-light bg-gradient">
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />

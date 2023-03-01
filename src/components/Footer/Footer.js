@@ -3,10 +3,10 @@ import Email from "../../assets/icons/envelope.svg";
 
 const Footer = () => {
   return (
-    <footer className="footer lh-lg sticky-bottom border bg-secondary text-light fw-light bg-gradient">
+    <footer className="footer lh-lg sticky-bottom border bg-secondary-subtle  fw-light bg-gradient">
       <div className="container">
-        <div className="row align-itmes-center">
-          <div className="col d-flex justify-content-center">
+        <div className="row align-itmes-center w-75 mx-auto">
+          <div className="col d-flex justify-content-between">
             <span className="pe-3">Diane Pugmire Events</span>
             <a
               href="mailto:diane@hellodpevents.com"
