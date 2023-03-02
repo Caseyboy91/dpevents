@@ -39,7 +39,7 @@ const Home = () => {
             alt="table setting"
             className="position-relative img-fluid"
           />
-          <a href="/events">
+          <a href="/weddings">
             <button
               className="btn btn-dark btn-lg position-absolute top-50 start-50 translate-middle"
               type="button"
