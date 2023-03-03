@@ -10,13 +10,14 @@ const About = () => {
         </div>
         <hr></hr>
       </div>
+      {/* Diane */}
       <div className="row align-items-center w-md-75 mx-md-auto">
         <div className="col-12 d-flex justify-content-center col-md-4">
           <figure className="figure text-center">
             <img
               src={Diane}
               alt="Diane Pugmire"
-              className="figure-img img-fluid rounded shadow"
+              className="figure-img img-fluid rounded shadow-lg"
             />
             <figcaption className="figure-caption pt-3">
               - Diane Pugmire -
@@ -27,8 +28,8 @@ const About = () => {
           <p className="lead fs-2">Hi, I'm Diane!</p>
           <p className="lead fs-6 fst-italic">
             Born and raised in the vibrant city of Las Vegas, Nevada, my heart
-            has always been in Boise, Idaho where I have spent most of my life.
-            I am beyond blessed with a wonderful family that includes amazing
+            has always been in Idaho where I have spent most of my life. I am
+            beyond blessed with a wonderful family that includes amazing
             children and grandchildren who are an integral part of my life.
           </p>
 
