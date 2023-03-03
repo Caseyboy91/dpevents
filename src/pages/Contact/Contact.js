@@ -1,7 +1,10 @@
 import emailjs from "emailjs-com";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Contact = () => {
+  useEffect(() => {
+    document.title = "DP Events | Contact";
+  });
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");

@@ -1,10 +1,14 @@
 import { HashLink } from "react-router-hash-link";
+import { useEffect } from "react";
 import "./Home.css";
 import Name from "../../assets/logo/logo4.png";
 import Img1 from "../../assets/images/img1.jpg";
 import Img2 from "../../assets/images/img2.jpg";
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "DP Events | Home";
+  });
   return (
     <section className="container min-vh-100 pb-3">
       <div className="row ">
@@ -40,7 +44,7 @@ const Home = () => {
             alt="table setting"
             className="position-relative img-fluid"
           />
-          <a href="/weddings">
+          <a href="/weddings&events">
             <button
               className="btn btn-dark btn-lg position-absolute top-50 start-50 translate-middle"
               type="button"
