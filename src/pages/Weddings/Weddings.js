@@ -38,9 +38,11 @@ const Weddings = () => {
           <span className="fw-lighter fst-italic d-flex justify-content-center mb-2">
             (Was our "Day of")
           </span>
-          <p className="fs-5 fw-light text-center ">
-            $1,499 <span className="fs-6 fst-italic">+ tax</span>
-          </p>
+          <a href="/contact" className="text-reset ">
+            <p className="fs-6 fst-italic fw-light text-center ">
+              Contact us to get a quote
+            </p>
+          </a>
 
           <ul>
             <li className="lead fs-6">
@@ -100,9 +102,11 @@ const Weddings = () => {
         </div>
         <div className="col">
           <p className="fs-2 fw-lighter text-center mb-0">Partial Planning</p>
-          <p className="fs-5 fw-light text-center ">
-            $2,699 <span className="fs-6 fst-italic">+ tax</span>
-          </p>
+          <a href="/contact" className="text-reset ">
+            <p className="fs-6 fst-italic fw-light text-center ">
+              Contact us to get a quote
+            </p>
+          </a>
 
           <ul>
             <li className="lead fs-6">
@@ -177,9 +181,11 @@ const Weddings = () => {
         </div>
         <div className="col">
           <p className="fs-2 fw-lighter text-center mb-0">Full Planning</p>
-          <p className="fs-5 fw-light text-center ">
-            $4,499 <span className="fs-6 fst-italic">+ tax</span>
-          </p>
+          <a href="/contact" className="text-reset ">
+            <p className="fs-6 fst-italic fw-light text-center ">
+              Contact us to get a quote
+            </p>
+          </a>
 
           <ul>
             <li className="lead fs-6">
