@@ -1,3 +1,4 @@
+import { HashLink } from "react-router-hash-link";
 import "./Home.css";
 import Name from "../../assets/logo/logo4.png";
 import Img1 from "../../assets/images/img1.jpg";
@@ -39,7 +40,7 @@ const Home = () => {
             alt="table setting"
             className="position-relative img-fluid"
           />
-          <a href="/events">
+          <a href="/weddings">
             <button
               className="btn btn-dark btn-lg position-absolute top-50 start-50 translate-middle"
               type="button"
@@ -54,14 +55,14 @@ const Home = () => {
             alt="table setting"
             className="position-relative img-fluid"
           />
-          <a href="/events">
+          <HashLink smooth to="/weddings&events#events">
             <button
               className="btn btn-dark btn-lg position-absolute top-50 start-50 translate-middle"
               type="button"
             >
               Events
             </button>
-          </a>
+          </HashLink>
         </div>
       </div>
     </section>
