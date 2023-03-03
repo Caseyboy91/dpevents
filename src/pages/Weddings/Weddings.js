@@ -1,14 +1,17 @@
 import "./Weddings.css";
 import Wedding from "../../assets/images/wedding.jpeg";
 import Wedding2 from "../../assets/images/wedding2.jpg";
-import Wedding3 from "../../assets/images/wedding3.jpg";
+import Wedding3 from "../../assets/images/wedding3.png";
+import Events from "../../assets/images/events.png";
 
 const Weddings = () => {
   return (
     <section className="weddings container min-vh-100 py-3">
       <div className="row w-md-75 mx-md-auto d-flex flex-column align-items-center">
         <div className="col d-flex flex-column align-items-center">
-          <p className="lead fs-1 text-uppercase fw-lighter">weddings</p>
+          <p className="lead d-flex justify-content-center align-items-center fs-1 text-uppercase fw-lighter">
+            weddings <span className="fs-4 px-2">&</span> events
+          </p>
         </div>
         <hr />
       </div>
@@ -92,7 +95,7 @@ const Weddings = () => {
           </figure>
         </div>
         <div className="col">
-          <p className="fs-2 fw-lighter text-center">Partial Planning</p>
+          <p className="fs-2 fw-lighter text-center mb-0">Partial Planning</p>
           <p className="fs-5 fw-light text-center ">
             $2,699 <span className="fs-6 fst-italic">+ tax</span>
           </p>
@@ -169,7 +172,7 @@ const Weddings = () => {
           </figure>
         </div>
         <div className="col">
-          <p className="fs-2 fw-lighter text-center">Full Planning</p>
+          <p className="fs-2 fw-lighter text-center mb-0">Full Planning</p>
           <p className="fs-5 fw-light text-center ">
             $4,499 <span className="fs-6 fst-italic">+ tax</span>
           </p>
@@ -229,6 +232,61 @@ const Weddings = () => {
               not offer Decor services.
             </li>
           </ul>
+          <p className="fw-light text-center fst-italic">
+            (If Travel is required, reasonable travel costs for 2 nights will be
+            added to contract at time of signing.)
+          </p>
+        </div>
+      </div>
+      <hr />
+
+      {/* events */}
+      <div className="row d-flex flex-column flex-lg-row-reverse justify-content-center align-items-center py-3 ">
+        <div className="col-8 col-md-6 col-lg-4">
+          <figure className="figure text-center">
+            <img
+              className="img-fluid rounded shadow-lg"
+              src={Events}
+              alt="wedding"
+            />
+            <figcaption className="figure-caption pt-3">
+              - JFD Foundation -
+            </figcaption>
+          </figure>
+        </div>
+        <div className="col" id="events">
+          <p className="d-flex align-items-center justify-content-center fs-2 fw-lighter text-center mb-0">
+            Events <span className="fs-4 px-2">&</span> Corporate Parties
+          </p>
+          <a href="/contact" className="text-reset ">
+            <p className="fs-6 fst-italic fw-light text-center ">
+              Contact us to get a quote
+            </p>
+          </a>
+          <p className="lead fs-6 ">
+            Diane Pugmire Events understands the importance of...
+          </p>
+          <ul>
+            <li className="lead fs-6">Logistics</li>
+            <li className="lead fs-6">Venue selection</li>
+            <li className="lead fs-6">Entertainment</li>
+            <li className="lead fs-6">Audio and video</li>
+            <li className="lead fs-6">Catering</li>
+            <li className="lead fs-6">Financial budget</li>
+            <li className="lead fs-6">
+              Handle ALL logistics with the event planning for optimum results.
+            </li>
+          </ul>
+          <p className="lead fs-6">
+            Once we are finished working alongside the client to create the
+            event's flow, layout, and activities, we handle everything
+            associated with the event planning for optimum results.
+          </p>
+          <p className="lead fs-6 ">
+            Our scope of services range from executing on the prgram topcs
+            designed to resonate with your audience, and developing the schedule
+            for presenters, decorators, and catering staff.{" "}
+          </p>
           <p className="fw-light text-center fst-italic">
             (If Travel is required, reasonable travel costs for 2 nights will be
             added to contract at time of signing.)
