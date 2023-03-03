@@ -1,7 +1,11 @@
+import { useEffect } from "react";
 import Diane from "../../assets/images/diane.jpg";
 import "./About.css";
 
 const About = () => {
+  useEffect(() => {
+    document.title = "DP Events | About";
+  });
   return (
     <section className="about container min-vh-100 py-3 ">
       <div className="row w-md-75 mx-md-auto d-flex flex-column align-items-center">

@@ -1,10 +1,14 @@
 import { HashLink } from "react-router-hash-link";
+import { useEffect } from "react";
 import "./Home.css";
 import Name from "../../assets/logo/logo4.png";
 import Img1 from "../../assets/images/img1.jpg";
 import Img2 from "../../assets/images/img2.jpg";
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "DP Events | Home";
+  });
   return (
     <section className="container min-vh-100 pb-3">
       <div className="row ">
@@ -14,6 +18,7 @@ const Home = () => {
             alt="Diane Pugmire Events"
             className="img-fluid w-50 mx-auto"
           />
+          <hr />
           <p className="text-center lead fs-6">
             At Diane Pugmire Events, we strive to create a guest experience that
             embodies a multitude of adjectives - from fun and energetic to
@@ -32,6 +37,7 @@ const Home = () => {
             event planning experience.
           </p>
         </div>
+        <hr />
       </div>
       <div className="row ">
         <div className="col-6 d-flex justify-content-center align-items-center position-relative">
@@ -40,7 +46,7 @@ const Home = () => {
             alt="table setting"
             className="position-relative img-fluid"
           />
-          <a href="/weddings">
+          <a href="/weddings&events">
             <button
               className="btn btn-dark btn-lg position-absolute top-50 start-50 translate-middle"
               type="button"

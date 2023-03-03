@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./Weddings.css";
 import Wedding from "../../assets/images/wedding.jpeg";
 import Wedding2 from "../../assets/images/wedding2.jpg";
@@ -5,6 +6,9 @@ import Wedding3 from "../../assets/images/wedding3.png";
 import Events from "../../assets/images/events.png";
 
 const Weddings = () => {
+  useEffect(() => {
+    document.title = "DP Events | Wedding & Events";
+  });
   return (
     <section className="weddings container min-vh-100 py-3">
       <div className="row w-md-75 mx-md-auto d-flex flex-column align-items-center">
@@ -232,7 +236,7 @@ const Weddings = () => {
               not offer Decor services.
             </li>
           </ul>
-          <p className="fw-light text-center fst-italic">
+          <p className="fw-light text-center fst-italic" id="events">
             (If Travel is required, reasonable travel costs for 2 nights will be
             added to contract at time of signing.)
           </p>
@@ -254,7 +258,7 @@ const Weddings = () => {
             </figcaption>
           </figure>
         </div>
-        <div className="col" id="events">
+        <div className="col">
           <p className="d-flex align-items-center justify-content-center fs-2 fw-lighter text-center mb-0">
             Events <span className="fs-4 px-2">&</span> Corporate Parties
           </p>
