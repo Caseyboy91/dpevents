@@ -18,6 +18,7 @@ const Home = () => {
             alt="Diane Pugmire Events"
             className="img-fluid w-50 mx-auto"
           />
+          <hr />
           <p className="text-center lead fs-6">
             At Diane Pugmire Events, we strive to create a guest experience that
             embodies a multitude of adjectives - from fun and energetic to
@@ -36,6 +37,7 @@ const Home = () => {
             event planning experience.
           </p>
         </div>
+        <hr />
       </div>
       <div className="row ">
         <div className="col-6 d-flex justify-content-center align-items-center position-relative">
