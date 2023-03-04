@@ -138,6 +138,8 @@ const Gallery = () => {
         <a
           href="https://www.pinterest.com/DianePugmire_1/"
           className="text-decoration-none text-reset mb-3"
+          target={"_blank"}
+          rel={"noreferrer"}
         >
           <img className="img-fluid" src={Pinterest} alt="pinterest" />
           <span className="lead ms-2 fs-5 fst-italic fw-light">
