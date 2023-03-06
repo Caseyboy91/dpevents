@@ -2,7 +2,7 @@ import Phone from "../../assets/icons/phone.svg";
 import Email from "../../assets/icons/envelope.svg";
 import Instagram from "../../assets/icons/instagram.svg";
 import Pinterest from "../../assets/icons/pinterest.svg";
-import WeddingWire from "../../assets/icons/weddingwirelogo.png";
+import WeddingwireLogo from "../../assets/icons/weddingwireLogo.png";
 import "./Footer.css";
 
 const Footer = () => {
@@ -35,8 +35,10 @@ const Footer = () => {
                 rel={"noreferrer"}
               >
                 <img
-                  src={WeddingWire}
-                  className="me-2 weddingwireLogo"
+
+                  src={WeddingwireLogo}
+                  className="weddingwireLogo"
+
                   alt="wedding wire"
                 />
               </a>
