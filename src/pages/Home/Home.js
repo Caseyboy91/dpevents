@@ -31,10 +31,10 @@ const Home = () => {
             We believe that your wedding or event should reflect your unique
             personality and style, and that's why we take the time to get to
             know you and understand your desires from start to finish. Whether
-            you're based in Boise, Idaho, or on the coast, we've had the
-            pleasure of working with satisfied clients all over the country.
-            Choose Diane Pugmire Events for an unforgettable and personalized
-            event planning experience.
+            you're based in Idaho, or on the coast, we've had the pleasure of
+            working with satisfied clients all over the country. Choose Diane
+            Pugmire Events for an unforgettable and personalized event planning
+            experience.
           </p>
         </div>
         <hr />
