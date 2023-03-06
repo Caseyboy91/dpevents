@@ -122,7 +122,7 @@ const Gallery = () => {
         </div>
       </div>
       <hr />
-      <div className="d-flex align-items-center justify-content-center">
+      <div className="d-flex align-items-center justify-content-center ">
         <a
           href="https://www.pinterest.com/DianePugmire_1/"
           className="text-decoration-none text-reset mb-3"
@@ -132,6 +132,23 @@ const Gallery = () => {
           <img className="img-fluid" src={Pinterest} alt="pinterest" />
           <span className="lead ms-2 fs-5 fst-italic fw-light">
             Check us out on Pinterest
+          </span>
+        </a>
+      </div>
+      <div className="d-flex align-items-center justify-content-center ">
+        <a
+          href="https://www.weddingwire.com/biz/diane-pugmire-events/2cdb7dc5f7d55992.html"
+          className="text-decoration-none text-reset mb-3"
+          target={"_blank"}
+          rel={"noreferrer"}
+        >
+          <img
+            className="img-fluid"
+            src="https://www.weddingwire.com/assets/img/logos/gen_logoHeader.svg"
+            alt="pinterest"
+          />
+          <span className="lead ms-2 fs-5 fst-italic fw-light">
+            Check us out on Wedding Wire
           </span>
         </a>
       </div>
