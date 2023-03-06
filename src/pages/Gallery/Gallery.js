@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Pinterest from "../../assets/icons/pinterest.svg";
+import "./Gallery.css";
 
 const Gallery = () => {
   useEffect(() => {
@@ -20,14 +21,15 @@ const Gallery = () => {
             class="carousel slide carousel-fade"
             data-bs-ride="carousel"
           >
-            <div class="carousel-inner bg-secondary">
+            <div class="carousel-inner shadow carousel">
               <div class="carousel-item active">
                 <img
                   class="d-block img-fluid w-25 mx-auto"
-                  src="https://i.pinimg.com/564x/e4/f7/0c/e4f70c00d8f85609485877cabfca4d56.jpg"
-                  alt="table setting"
+                  src="https://i.imgur.com/wLdTLqW.jpg"
+                  alt="candle setting"
                 />
               </div>
+
               <div class="carousel-item ">
                 <img
                   class="d-block img-fluid w-50 mx-auto"
@@ -35,48 +37,31 @@ const Gallery = () => {
                   alt="guest seating outside"
                 />
               </div>
+
               <div class="carousel-item ">
                 <img
                   class="d-block img-fluid w-25 mx-auto"
-                  src="https://i.pinimg.com/564x/3e/2d/38/3e2d3864a74fa05cebee53c7a116de34.jpg"
+                  src="https://i.imgur.com/RLeWIo1.jpg"
+                  alt="green drapes"
+                />
+              </div>
+
+              <div class="carousel-item ">
+                <img
+                  class="d-block img-fluid w-25 mx-auto"
+                  src="https://i.imgur.com/ELRcLOF.jpg"
                   alt="table setting"
                 />
               </div>
+
               <div class="carousel-item ">
                 <img
                   class="d-block img-fluid w-25 mx-auto"
-                  src="https://i.pinimg.com/564x/b4/f9/4b/b4f94bcbe7598f1fc570999c2e69b294.jpg"
-                  alt="centerpiece"
+                  src="https://i.imgur.com/YXkR1CM.jpg"
+                  alt="venue arch entry"
                 />
               </div>
-              <div class="carousel-item ">
-                <img
-                  class="d-block img-fluid w-50 mx-auto"
-                  src="https://i.pinimg.com/564x/59/17/bd/5917bdcf5ece7d615c74f2e5ba363669.jpg"
-                  alt="chandelier"
-                />
-              </div>
-              <div class="carousel-item ">
-                <img
-                  class="d-block img-fluid w-25 mx-auto"
-                  src="https://i.pinimg.com/564x/d7/62/28/d762281adaaed811103d5fa14f1cfb24.jpg"
-                  alt="christmas setting"
-                />
-              </div>
-              <div class="carousel-item ">
-                <img
-                  class="d-block img-fluid w-50 mx-auto"
-                  src="https://i.pinimg.com/564x/8b/f1/27/8bf1270ffdbf0011d9090fc926055468.jpg"
-                  alt="table setting"
-                />
-              </div>
-              <div class="carousel-item ">
-                <img
-                  class="d-block img-fluid w-50 mx-auto"
-                  src="https://i.pinimg.com/564x/11/35/37/113537c49970070ae417ff0809de2ac5.jpg"
-                  alt="guest seating"
-                />
-              </div>
+
               <div class="carousel-item ">
                 <img
                   class="d-block img-fluid w-25 mx-auto"
@@ -84,6 +69,7 @@ const Gallery = () => {
                   alt="cake table"
                 />
               </div>
+
               <div class="carousel-item ">
                 <img
                   class="d-block img-fluid w-50 mx-auto"
@@ -91,6 +77,7 @@ const Gallery = () => {
                   alt="venue"
                 />
               </div>
+
               <div class="carousel-item ">
                 <img
                   class="d-block img-fluid w-50 mx-auto"
@@ -98,6 +85,7 @@ const Gallery = () => {
                   alt="ceremony"
                 />
               </div>
+
               <div class="carousel-item ">
                 <img
                   class="d-block img-fluid w-50 mx-auto"
@@ -138,6 +126,8 @@ const Gallery = () => {
         <a
           href="https://www.pinterest.com/DianePugmire_1/"
           className="text-decoration-none text-reset mb-3"
+          target={"_blank"}
+          rel={"noreferrer"}
         >
           <img className="img-fluid" src={Pinterest} alt="pinterest" />
           <span className="lead ms-2 fs-5 fst-italic fw-light">

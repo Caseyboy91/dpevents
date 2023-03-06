@@ -1,5 +1,5 @@
 import emailjs from "emailjs-com";
-import { useState, useEffect } from "react";
+import { useState, useEffect, React } from "react";
 
 const Contact = () => {
   useEffect(() => {
@@ -13,7 +13,9 @@ const Contact = () => {
   const [message, setMessage] = useState("");
 
   const sendEmail = (e) => {
-    alert("Email Sent");
+    alert(
+      "Thank you for your email. We are reviewing your information and will be in contact within 24-48 business hours. Thank you, DP Events"
+    );
     e.preventDefault();
     setName("");
     setEmail("");
