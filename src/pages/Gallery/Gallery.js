@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Pinterest from "../../assets/icons/pinterest.svg";
+import WeddingWire from "../../assets/icons/weddingwire.png";
 import "./Gallery.css";
 
 const Gallery = () => {
@@ -143,8 +144,8 @@ const Gallery = () => {
           rel={"noreferrer"}
         >
           <img
-            className="img-fluid"
-            src="https://www.weddingwire.com/assets/img/logos/gen_logoHeader.svg"
+            className="img-fluid weddingwire"
+            src={WeddingWire}
             alt="pinterest"
           />
           <span className="lead ms-2 fs-5 fst-italic fw-light">

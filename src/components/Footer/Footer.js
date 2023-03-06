@@ -13,10 +13,18 @@ const Footer = () => {
               <a href="/" className="text-reset text-decoration-none">
                 <span className="pe-2 ">DP Events</span>
               </a>
-              <a href="https://www.instagram.com/_dpevents_/">
+              <a
+                href="https://www.instagram.com/_dpevents_/"
+                target={"_blank"}
+                rel={"noreferrer"}
+              >
                 <img src={Instagram} className="pe-2" alt="instagram" />
               </a>
-              <a href="https://www.pinterest.com/DianePugmire_1/">
+              <a
+                href="https://www.pinterest.com/DianePugmire_1/"
+                target={"_blank"}
+                rel={"noreferrer"}
+              >
                 <img src={Pinterest} alt="pinterest" />
               </a>
             </div>
