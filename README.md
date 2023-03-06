@@ -14,57 +14,81 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+![Logo](https://i.imgur.com/9b05el8.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# DP Events
 
-### `npm run build`
+Diane Pugmire Events (DP Events) is a full-service wedding and event planning website. Diane and her team help with all apsects of the wedding and event planning journey.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Authors
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [@caseyboy91](https://github.com/Caseyboy91)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔗 Links
 
-### `npm run eject`
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/caseydavis91/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Client:** React, Emailjs, Bootstrap, HTML, CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Support
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+For support, email contact@caseyrdavis.com
 
-## Learn More
+## Screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Home Page:
+![App Screenshot](https://i.imgur.com/b78KcCN.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+About Page:
+![App Screenshot](https://i.imgur.com/ogLvoTz.png)
 
-### Code Splitting
+Wedding & Events Page:
+![App Screenshot](https://i.imgur.com/Ws73RLJ.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Gallery Page:
+![App Screenshot](https://i.imgur.com/f8bF1tE.png)
 
-### Analyzing the Bundle Size
+Contact Page:
+![App Screenshot](https://i.imgur.com/ihsMNzE.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Run Locally
 
-### Making a Progressive Web App
+Clone the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Client:
 
-### Advanced Configuration
+```bash
+  git clone https://github.com/Caseyboy91/runnit
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Go to the project directory
 
-### Deployment
+Client:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+  cd client
+```
 
-### `npm run build` fails to minify
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Client:
+
+```bash
+  npm install
+```
+
+Start the app
+
+Client
+
+```bash
+  npm run start
+```
+
+App is full responsive and can be enjoyed in all viewports.
+
+## Feedback
+
+If you have any feedback, please reach out to us at contact@caseyrdavis.com
