@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+![Logo](https://i.imgur.com/9b05el8.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# DP Events
 
-## Available Scripts
+Diane Pugmire Events (DP Events) is a full-service wedding and event planning website. Diane and her team help with all apsects of the wedding and event planning journey.
 
-In the project directory, you can run:
+## Authors
 
-### `npm start`
+- [@caseyboy91](https://github.com/Caseyboy91)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🔗 Links
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/caseydavis91/)
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Client:** React, Emailjs, Bootstrap, HTML, CSS
 
-### `npm run build`
+## Support
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For support, email contact@caseyrdavis.com
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Home Page:
+![App Screenshot](https://i.imgur.com/b78KcCN.png)
 
-### `npm run eject`
+About Page:
+![App Screenshot](https://i.imgur.com/ogLvoTz.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Wedding & Events Page:
+![App Screenshot](https://i.imgur.com/Ws73RLJ.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Gallery Page:
+![App Screenshot](https://i.imgur.com/f8bF1tE.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contact Page:
+![App Screenshot](https://i.imgur.com/ihsMNzE.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Run Locally
 
-## Learn More
+Clone the project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Client:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  git clone https://github.com/Caseyboy91/runnit
+```
 
-### Code Splitting
+Go to the project directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Client:
 
-### Analyzing the Bundle Size
+```bash
+  cd client
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install dependencies
 
-### Making a Progressive Web App
+Client:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+  npm install
+```
 
-### Advanced Configuration
+Start the app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Client
 
-### Deployment
+```bash
+  npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+App is full responsive and can be enjoyed in all viewports.
 
-### `npm run build` fails to minify
+## Feedback
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any feedback, please reach out to us at contact@caseyrdavis.com
