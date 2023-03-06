@@ -130,7 +130,7 @@ const Gallery = () => {
           target={"_blank"}
           rel={"noreferrer"}
         >
-          <img className="img-fluid" src={Pinterest} alt="pinterest" />
+          <img className="img-fluid " src={Pinterest} alt="pinterest" />
           <span className="lead ms-2 fs-5 fst-italic fw-light">
             Check us out on Pinterest
           </span>
