@@ -31,10 +31,10 @@ const About = () => {
         <div className="col text-center ">
           <p className="lead fs-2">Hi, I'm Diane!</p>
           <p className="lead fs-6 fst-italic">
-            Born and raised in the vibrant city of Las Vegas, Nevada, my heart
-            has always been in Idaho where I have spent most of my life. I am
-            beyond blessed with a wonderful family that includes amazing
-            children and grandchildren who are an integral part of my life.
+            Born in the vibrant city of Las Vegas, Nevada, my heart has always
+            been in Idaho where I have spent most of my life. I am beyond
+            blessed with a wonderful family that includes amazing children and
+            grandchildren who are an integral part of my life.
           </p>
 
           <p className="lead fs-6 fst-italic">

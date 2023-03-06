@@ -277,7 +277,6 @@ const Weddings = () => {
             Diane Pugmire Events understands the importance of...
           </p>
           <ul>
-            <li className="lead fs-6">Logistics</li>
             <li className="lead fs-6">Venue selection</li>
             <li className="lead fs-6">Entertainment</li>
             <li className="lead fs-6">Audio and video</li>
@@ -288,12 +287,12 @@ const Weddings = () => {
             </li>
           </ul>
           <p className="lead fs-6">
-            Once we are finished working alongside the client to create the
-            event's flow, layout, and activities, we handle everything
-            associated with the event planning for optimum results.
+            Once we are finished working alongside you to create the event's
+            flow, layout, and activities, we handle everything associated with
+            the event planning for optimum results.
           </p>
           <p className="lead fs-6 ">
-            Our scope of services range from executing on the prgram topcs
+            Our scope of services range from executing on the program topics
             designed to resonate with your audience, and developing the schedule
             for presenters, decorators, and catering staff.{" "}
           </p>
@@ -313,7 +312,7 @@ const Weddings = () => {
             Pricing available once design is complete.
           </p>
           <span className="fs-3 fw-lighter">
-            Set up and take down of our rentals or your decore:{" "}
+            Set up and take down of our rentals or your decor:{" "}
           </span>
           <p className="lead fs-6">Begins at $800</p>
           <span className="fs-3 fw-lighter">Extra help: </span>
