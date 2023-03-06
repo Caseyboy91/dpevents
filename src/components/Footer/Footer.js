@@ -1,13 +1,33 @@
 import Phone from "../../assets/icons/phone.svg";
 import Email from "../../assets/icons/envelope.svg";
+import Instagram from "../../assets/icons/instagram.svg";
+import Pinterest from "../../assets/icons/pinterest.svg";
 
 const Footer = () => {
   return (
     <footer className="footer lh-lg sticky-bottom border bg-secondary-subtle  fw-light bg-gradient">
       <div className="container">
-        <div className="row align-itmes-center w-75 mx-auto">
+        <div className="row align-itmes-center">
           <div className="col d-flex justify-content-between">
-            <span className="pe-3">DP Events</span>
+            <div className="pe-2">
+              <a href="/" className="text-reset text-decoration-none">
+                <span className="pe-2 ">DP Events</span>
+              </a>
+              <a
+                href="https://www.instagram.com/_dpevents_/"
+                target={"_blank"}
+                rel={"noreferrer"}
+              >
+                <img src={Instagram} className="pe-2" alt="instagram" />
+              </a>
+              <a
+                href="https://www.pinterest.com/DianePugmire_1/"
+                target={"_blank"}
+                rel={"noreferrer"}
+              >
+                <img src={Pinterest} alt="pinterest" />
+              </a>
+            </div>
             <a
               href="mailto:diane@hellodpevents.com"
               className="text-decoration-none text-reset pe-3"
