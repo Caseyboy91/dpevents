@@ -2,6 +2,8 @@ import Phone from "../../assets/icons/phone.svg";
 import Email from "../../assets/icons/envelope.svg";
 import Instagram from "../../assets/icons/instagram.svg";
 import Pinterest from "../../assets/icons/pinterest.svg";
+import WeddingWire from "../../assets/icons/weddingwirelogo.png";
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -25,7 +27,18 @@ const Footer = () => {
                 target={"_blank"}
                 rel={"noreferrer"}
               >
-                <img src={Pinterest} alt="pinterest" />
+                <img src={Pinterest} alt="pinterest" className="pe-2" />
+              </a>
+              <a
+                href="https://www.weddingwire.com/biz/diane-pugmire-events/2cdb7dc5f7d55992.html"
+                target={"_blank"}
+                rel={"noreferrer"}
+              >
+                <img
+                  src={WeddingWire}
+                  className="me-2 weddingwireLogo"
+                  alt="wedding wire"
+                />
               </a>
             </div>
             <a
