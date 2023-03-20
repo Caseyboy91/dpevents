@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Pinterest from "../../assets/icons/pinterest.svg";
 import WeddingWire from "../../assets/icons/weddingwire.png";
 import "./Gallery.css";
+import Carousel from "../../components/Carousel/Carousel";
 
 const Gallery = () => {
   useEffect(() => {
@@ -22,78 +23,15 @@ const Gallery = () => {
             class="carousel slide carousel-fade"
             data-bs-ride="carousel"
           >
-            <div class="carousel-inner shadow carousel">
+            <div class="carousel-inner shadow carousel" id="1">
               <div class="carousel-item active">
                 <img
-                  class="d-block img-fluid w-25 mx-auto"
+                  class="d-block img-fluid w-50 mx-auto"
                   src="https://i.imgur.com/wLdTLqW.jpg"
                   alt="candle setting"
                 />
               </div>
-
-              <div class="carousel-item ">
-                <img
-                  class="d-block img-fluid w-50 mx-auto"
-                  src="https://i.pinimg.com/originals/f8/d3/61/f8d36127b03a4df2b7946de612167125.jpg"
-                  alt="guest seating outside"
-                />
-              </div>
-
-              <div class="carousel-item ">
-                <img
-                  class="d-block img-fluid w-25 mx-auto"
-                  src="https://i.imgur.com/RLeWIo1.jpg"
-                  alt="green drapes"
-                />
-              </div>
-
-              <div class="carousel-item ">
-                <img
-                  class="d-block img-fluid w-25 mx-auto"
-                  src="https://i.imgur.com/ELRcLOF.jpg"
-                  alt="table setting"
-                />
-              </div>
-
-              <div class="carousel-item ">
-                <img
-                  class="d-block img-fluid w-25 mx-auto"
-                  src="https://i.imgur.com/YXkR1CM.jpg"
-                  alt="venue arch entry"
-                />
-              </div>
-
-              <div class="carousel-item ">
-                <img
-                  class="d-block img-fluid w-25 mx-auto"
-                  src="https://i.pinimg.com/564x/39/e9/c3/39e9c3d9adf31d7f57d9d79b80ca08bc.jpg"
-                  alt="cake table"
-                />
-              </div>
-
-              <div class="carousel-item ">
-                <img
-                  class="d-block img-fluid w-50 mx-auto"
-                  src="https://i.pinimg.com/originals/ad/68/a7/ad68a7877273f1ff88274380c8d5ca29.jpg"
-                  alt="venue"
-                />
-              </div>
-
-              <div class="carousel-item ">
-                <img
-                  class="d-block img-fluid w-50 mx-auto"
-                  src="https://i.pinimg.com/564x/61/2b/23/612b23ec0b3ca6446b0b0ab290ef4c94.jpg"
-                  alt="ceremony"
-                />
-              </div>
-
-              <div class="carousel-item ">
-                <img
-                  class="d-block img-fluid w-50 mx-auto"
-                  src="https://i.pinimg.com/originals/3c/3a/8f/3c3a8f2338bfe5d434023c83be8c6177.jpg"
-                  alt="venue"
-                />
-              </div>
+              <Carousel />
             </div>
             <button
               class="carousel-control-prev"

@@ -242,7 +242,7 @@ const Weddings = () => {
               not offer Decor services.
             </li>
           </ul>
-          <p className="fw-light text-center fst-italic" id="events">
+          <p className="fw-light text-center fst-italic">
             (If Travel is required, reasonable travel costs for 2 nights will be
             added to contract at time of signing.)
           </p>
@@ -258,6 +258,7 @@ const Weddings = () => {
               className="img-fluid rounded shadow-lg"
               src={Events}
               alt="wedding"
+              id="events"
             />
             <figcaption className="figure-caption pt-3">
               - JFD Foundation -
@@ -265,7 +266,10 @@ const Weddings = () => {
           </figure>
         </div>
         <div className="col">
-          <p className="d-flex align-items-center justify-content-center fs-2 fw-lighter text-center mb-0">
+          <p
+            className="d-flex align-items-center justify-content-center fs-2 fw-lighter text-center mb-0"
+            id="events"
+          >
             Events <span className="fs-4 px-2">&</span> Corporate Parties
           </p>
           <a href="/contact" className="text-reset ">
