@@ -32,7 +32,7 @@ const Weddings = () => {
         </div>
         <div className="col">
           <p className="fs-1 fw-light text-center mb-0">Wedding Management </p>
-          <p className="fw-lighter fst-italic text-center mb-2">
+          <p className="fw-light fst-italic text-center mb-2">
             (Was our "Day of")
           </p>
           <a href="/contact" className="text-reset ">
@@ -77,9 +77,9 @@ const Weddings = () => {
               not offer Decor services.
             </li>
           </ul>
-          <p className="fw-light text-center fst-italic">
-            (If Travel is required, reasonable travel costs for 2 nights will be
-            added to contract at time of signing.)
+          <p className="fw-bold text-center fst-italic">
+            (If Travel is required, travel costs for 2 nights will be added to
+            contract at time of signing.)
           </p>
         </div>
       </div>
@@ -155,9 +155,9 @@ const Weddings = () => {
               not offer Decor services.
             </li>
           </ul>
-          <p className="fw-light text-center fst-italic">
-            (If Travel is required, reasonable travel costs for 2 nights will be
-            added to contract at time of signing.)
+          <p className="fw-bold text-center fst-italic">
+            (If Travel is required, travel costs for 2 nights will be added to
+            contract at time of signing.)
           </p>
         </div>
       </div>
@@ -237,9 +237,9 @@ const Weddings = () => {
               not offer Decor services.
             </li>
           </ul>
-          <p className="fw-light text-center fst-italic">
-            (If Travel is required, reasonable travel costs for 2 nights will be
-            added to contract at time of signing.)
+          <p className="fw-bold text-center fst-italic">
+            (If Travel is required, travel costs for 2 nights will be added to
+            contract at time of signing.)
           </p>
         </div>
       </div>
@@ -292,9 +292,9 @@ const Weddings = () => {
             designed to resonate with your audience, and developing the schedule
             for presenters, decorators, and catering staff.{" "}
           </p>
-          <p className="fw-light text-center fst-italic">
-            (If Travel is required, reasonable travel costs for 2 nights will be
-            added to contract at time of signing.)
+          <p className="fw-bold text-center fst-italic">
+            (If Travel is required, travel costs for 2 nights will be added to
+            contract at time of signing.)
           </p>
         </div>
       </div>
