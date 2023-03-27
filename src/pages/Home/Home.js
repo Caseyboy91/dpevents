@@ -10,16 +10,20 @@ const Home = () => {
     document.title = "DP Events | Home";
   });
   return (
-    <section className="container min-vh-100 pb-3">
+    <section className="container  pb-3">
       <div className="row ">
         <div className="col d-flex flex-column justify-content-center">
           <img
             src={Name}
             alt="Diane Pugmire Events"
-            className="img-fluid w-50 mx-auto"
+            className="img-fluid w-75 mx-auto"
           />
-          <hr />
-          <p className="text-center lead fs-6">
+        </div>
+        <hr />
+      </div>
+      <div className="row home-text">
+        <div className="col d-flex flex-column justify-content-center py-5 ">
+          <p className="lead fw-light fst-italic lh-lg fs-5 pb-3 w-75 mx-auto">
             At Diane Pugmire Events, we strive to create a guest experience that
             embodies a multitude of adjectives - from fun and energetic to
             classic and romantic. Our team of dedicated wedding and event
@@ -27,7 +31,7 @@ const Home = () => {
             budget, and known for their honesty and reliability, as attested to
             by our vendors and clients alike.
           </p>
-          <p className="text-center lead fs-6">
+          <p className="lead fw-light fst-italic lh-lg fs-5 w-75 mx-auto">
             We believe that your wedding or event should reflect your unique
             personality and style, and that's why we take the time to get to
             know you and understand your desires from start to finish. Whether
@@ -37,14 +41,14 @@ const Home = () => {
             experience.
           </p>
         </div>
-        <hr />
       </div>
-      <div className="row ">
+      <hr />
+      <div className="row py-5">
         <div className="col-6 d-flex justify-content-center align-items-center position-relative">
           <img
             src={Img1}
             alt="table setting"
-            className="position-relative img-fluid"
+            className="position-relative img-fluid shadow-lg rounded"
           />
           <a href="/weddings&events">
             <button
@@ -59,7 +63,7 @@ const Home = () => {
           <img
             src={Img2}
             alt="table setting"
-            className="position-relative img-fluid"
+            className="position-relative img-fluid shadow-lg rounded"
           />
           <HashLink smooth to="/weddings&events#events">
             <button
