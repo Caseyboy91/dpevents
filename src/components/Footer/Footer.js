@@ -1,10 +1,6 @@
 import Logo2 from "../../assets/logo/logo4.png";
 import Phone from "../../assets/icons/phone-fill.svg";
 import Email from "../../assets/icons/envelope-fill.svg";
-
-import Pinterest from "../../assets/icons/pinterest.svg";
-import WeddingwireLogo from "../../assets/icons/weddingwire.png";
-import Knot from "../../assets/icons/theknot.png";
 import "./Footer.css";
 
 const Footer = () => {
@@ -13,12 +9,12 @@ const Footer = () => {
       <div className="container py-2">
         <div className="row align-itmes-center">
           <div className="col d-flex justify-content-between align-items-center">
-            <div className="d-flex flex-column align-items-start ms-2">
+            <div className="d-flex flex-md-column align-items-start ms-2">
               <a
                 href="tel:+12086313650"
                 className="text-decoration-none text-reset"
               >
-                <img src={Phone} alt="phone number" className=" pe-2" />
+                <img src={Phone} alt="phone number" className="pe-5" />
                 <span className="d-none d-md-inline">208.631.3650</span>
               </a>
               <a
