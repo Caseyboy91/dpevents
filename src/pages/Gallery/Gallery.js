@@ -14,13 +14,11 @@ const Gallery = () => {
     <section className="container min-vh-100 py-3">
       <div className="row w-md-75 mx-md-auto d-flex flex-column align-items-center">
         <div className="col">
-          <p className="lead d-flex align-items-center fs-1 text-uppercase fw-lighter">
-            gallery
-          </p>
+          <p className="lead  fs-1 text-uppercase fw-lighter">gallery</p>
         </div>
         <hr />
       </div>
-      <div className="row w-md-75 mx-md-auto">
+      <div className="row w-md-75 mx-md-auto py-3">
         <div class="col">
           <div
             id="slides-with-controls"
@@ -66,7 +64,7 @@ const Gallery = () => {
       </div>
       <hr />
       <div className="row d-flex justify-content-between py-3">
-        <div className="col-6">
+        <div className="col-md-6">
           <div className="d-flex align-items-center justify-content-center social">
             <a
               href="https://www.instagram.com/_dpevents_/"
@@ -74,7 +72,7 @@ const Gallery = () => {
               rel={"noreferrer"}
               className="text-reset  mb-3"
             >
-              <img className="img-fluid" src={Instagram} alt="instagram" />
+              <img className="img-fluid " src={Instagram} alt="instagram" />
               <span className="lead ms-2 fs-5 fst-italic fw-light">
                 Check us out on Instagram
               </span>
@@ -87,14 +85,14 @@ const Gallery = () => {
               target={"_blank"}
               rel={"noreferrer"}
             >
-              <img className="img-fluid " src={Pinterest} alt="pinterest" />
+              <img className="img-fluid" src={Pinterest} alt="pinterest" />
               <span className="lead ms-2 fs-5 fst-italic fw-light">
                 Check us out on Pinterest
               </span>
             </a>
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-md-6">
           <div className="d-flex align-items-center justify-content-center social">
             <a
               href="https://www.weddingwire.com/biz/diane-pugmire-events/2cdb7dc5f7d55992.html"

@@ -19,9 +19,10 @@ const Weddings = () => {
         </div>
         <hr />
       </div>
+
       {/* Day Of */}
       <div className="row d-flex flex-column flex-lg-row justify-content-center align-items-center py-3 ">
-        <div className="col-8 col-md-6 col-lg-4">
+        <div className="col-8 col-md-6 col-lg-4" id="weddingManagement">
           <figure className="figure">
             <img
               className="img-fluid rounded shadow-lg"
@@ -87,7 +88,7 @@ const Weddings = () => {
 
       {/* Partial */}
       <div className="row row d-flex flex-column flex-lg-row justify-content-center align-items-center py-3 flex-lg-row-reverse ">
-        <div className="col-8 col-md-6 col-lg-4">
+        <div className="col-8 col-md-6 col-lg-4" id="partialPlanning">
           <figure className="figure">
             <img
               className="img-fluid rounded shadow-lg"
@@ -165,7 +166,7 @@ const Weddings = () => {
 
       {/* Full Service */}
       <div className="row d-flex flex-column flex-lg-row justify-content-center align-items-center py-3 ">
-        <div className="col-8 col-md-6 col-lg-4">
+        <div className="col-8 col-md-6 col-lg-4" id="fullPlanning">
           <figure className="figure">
             <img
               className="img-fluid rounded shadow-lg"
@@ -303,7 +304,7 @@ const Weddings = () => {
 
       {/* Other */}
       <div className="row">
-        <div className="col extras text-center py-3">
+        <div className="col extras text-center py-3" id="decor">
           <span className="fs-2 fw-bold">Decor Rentals: </span>
           <p className="fs-6 fst-italic fw-light">
             Pricing available once design is complete.

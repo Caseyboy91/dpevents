@@ -1,12 +1,12 @@
-import Logo from "../../assets/logo/logo.png";
+import Logo from "../../assets/logo/logo4.png";
 import "./Header.css";
 
 const Header = () => {
   return (
-    <header className="navbar navbar-expand-md sticky-top border bg-secondary-subtle bg-gradient ">
+    <header className="navbar navbar-expand-md sticky-top border bg-light bg-gradient ">
       <div className="container d-flex">
         <a href="/" className="navbar-brand ">
-          <img src={Logo} alt="dp events" className="img-fluid logo" />
+          <img src={Logo} alt="dp events" className="img-fluid logo border" />
         </a>
 
         <button

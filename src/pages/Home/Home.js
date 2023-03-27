@@ -11,34 +11,37 @@ const Home = () => {
   });
   return (
     <section className="container pb-3">
-      <div className="row ">
+      <div className="row hero py-5">
         <div className="col d-flex flex-column justify-content-center">
           <img
             src={Name}
             alt="Diane Pugmire Events"
-            className="img-fluid w-75 mx-auto"
+            className="img-fluid dpLogo"
           />
         </div>
-        <hr />
       </div>
+      <hr />
       <div className="row home-text">
         <div className="col d-flex flex-column justify-content-center py-5 ">
           <p className="lead fw-light fst-italic lh-lg fs-5 pb-3 w-75 mx-auto">
-            At Diane Pugmire Events, we strive to create a guest experience that
-            embodies a multitude of adjectives - from fun and energetic to
+            "At Diane Pugmire Events, we strive to create a guest experience
+            that embodies a multitude of adjectives - from fun and energetic to
             classic and romantic. Our team of dedicated wedding and event
             planners are detail-oriented, committed to working within your
             budget, and known for their honesty and reliability, as attested to
             by our vendors and clients alike.
-          </p>
-          <p className="lead fw-light fst-italic lh-lg fs-5 w-75 mx-auto">
+            <br />
+            <br />
             We believe that your wedding or event should reflect your unique
             personality and style, and that's why we take the time to get to
             know you and understand your desires from start to finish. Whether
             you're based in Idaho, or on the coast, we've had the pleasure of
             working with satisfied clients all over the country. Choose Diane
             Pugmire Events for an unforgettable and personalized event planning
-            experience.
+            experience."
+          </p>
+          <p className="fw-bold fst-italic fs-6 pe-5 d-flex justify-content-end">
+            ~ Diane Pugmire
           </p>
         </div>
       </div>
