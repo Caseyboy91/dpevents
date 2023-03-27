@@ -3,9 +3,9 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <header className="navbar navbar-expand-md sticky-top border bg-secondary-subtle bg-gradient">
-      <div className="container">
-        <a href="/" className="navbar-brand">
+    <header className="navbar navbar-expand-md sticky-top border bg-secondary-subtle bg-gradient ">
+      <div className="container d-flex">
+        <a href="/" className="navbar-brand ">
           <img src={Logo} alt="dp events" className="img-fluid logo" />
         </a>
 
@@ -20,8 +20,11 @@ const Header = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
+        <div
+          className="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul className="navbar-nav ">
             <li className="nav-item">
               <a href="/" className="nav-link">
                 Home
