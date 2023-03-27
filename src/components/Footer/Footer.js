@@ -5,43 +5,43 @@ import Pinterest from "../../assets/icons/pinterest.svg";
 
 import WeddingwireLogo from "../../assets/icons/weddingwire.png";
 
-
 import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer lh-lg sticky-bottom border bg-secondary-subtle  fw-light bg-gradient">
-      <div className="container">
+    <footer className="footer sticky-bottom border bg-secondary-subtle  fw-light bg-gradient">
+      <div className="container py-3">
         <div className="row align-itmes-center">
           <div className="col d-flex justify-content-between">
             <div className="pe-2">
               <a href="/" className="text-reset text-decoration-none">
-                <span className="pe-2 ">DP Events</span>
+                <span className="pe-1 ">DP Events</span>
               </a>
               <a
                 href="https://www.instagram.com/_dpevents_/"
                 target={"_blank"}
                 rel={"noreferrer"}
+                className="px-2"
               >
-                <img src={Instagram} className="pe-2" alt="instagram" />
+                <img src={Instagram} alt="instagram" />
               </a>
               <a
                 href="https://www.pinterest.com/DianePugmire_1/"
                 target={"_blank"}
                 rel={"noreferrer"}
+                className="px-2"
               >
-                <img src={Pinterest} alt="pinterest" className="pe-2" />
+                <img src={Pinterest} alt="pinterest" />
               </a>
               <a
                 href="https://www.weddingwire.com/biz/diane-pugmire-events/2cdb7dc5f7d55992.html"
                 target={"_blank"}
                 rel={"noreferrer"}
+                className="px-2"
               >
                 <img
-
                   src={WeddingwireLogo}
                   className="weddingwireLogo"
-
                   alt="wedding wire"
                 />
               </a>
