@@ -46,8 +46,8 @@ const Home = () => {
         </div>
       </div>
       <hr />
-      <div className="row py-5">
-        <div className="col-6 d-flex justify-content-center align-items-center position-relative">
+      <div className="row">
+        <div className="col-md-6 d-flex py-3 justify-content-center align-items-center position-relative">
           <img
             src={Img1}
             alt="table setting"
@@ -62,7 +62,7 @@ const Home = () => {
             </button>
           </a>
         </div>
-        <div className="col-6 d-flex justify-content-center align-items-center position-relative">
+        <div className="col-md-6 d-flex py-3 justify-content-center align-items-center position-relative">
           <img
             src={Img2}
             alt="table setting"
