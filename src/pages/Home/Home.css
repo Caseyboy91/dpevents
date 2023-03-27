@@ -1,1 +1,11 @@
+.home-text {
+  background-color: rgba(182, 215, 198, 0.4);
+}
 
+.hero {
+  background-image: url(../../assets/images/dpLogoBackground.jpg);
+}
+
+.dpLogo {
+  background: rgba(245, 245, 245, 0.75);
+}

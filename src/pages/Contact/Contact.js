@@ -1,5 +1,6 @@
 import emailjs from "emailjs-com";
 import { useState, useEffect, React } from "react";
+import "./Contact.css";
 
 const Contact = () => {
   useEffect(() => {
@@ -39,26 +40,24 @@ const Contact = () => {
   return (
     <section className="container min-vh-100 py-3">
       <div className="row w-md-75 mx-md-auto d-flex flex-column align-items-center">
-        <div className="col d-flex flex-column align-items-center">
-          <p className="lead text-uppercase fw-lighter fs-1">contact me</p>
+        <div className="col ">
+          <p className="lead text-uppercase fw-lighter fs-1">contact</p>
         </div>
         <hr />
       </div>
       <div className="row w-md-75 mx-md-auto d-flex flex-column align-items-center">
-        <div className="col ">
-          <p className="fs-6 fst-italic lead text-center">
+        <div className="col py-md-5">
+          <p className="fs-4 fst-italic lead text-center lh-lg">
             "I can't wait to hear more about you and your event!
-          </p>
-          <p className="fs-6 fst-italic lead text-center">
+            <br />
             Fill out the contact form below to get the conversation started.
-          </p>
-          <p className="fs-6 lead fst-italic text-center">
+            <br />
             Give as much info as possible to discuss availability and pricing."
           </p>
         </div>
         <hr />
       </div>
-      <form className="row g-3 " onSubmit={sendEmail}>
+      <form className="row g-3 py-3 my-3" onSubmit={sendEmail}>
         <div className="col-md-6">
           <label htmlFor="name" className="form-label">
             Name
@@ -148,8 +147,8 @@ const Contact = () => {
             required
           ></textarea>
         </div>
-        <div className="col-md-12">
-          <button type="submit" className="btn btn-secondary">
+        <div className="col">
+          <button type="submit" className="btn btn-lg btn-secondary">
             Send Email
           </button>
         </div>
