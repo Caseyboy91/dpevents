@@ -1,8 +1,15 @@
 .carousel {
-  background-color: rgba(182, 215, 198, 0.5);
+  background-color: #b6d7c666;
   color: #575757;
 }
 
-.weddingwire {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: hsl(149, 29%, 70%);
+  border-radius: 25px;
+}
+
+.weddingwire,
+.theknot {
   width: 1.5rem;
 }
