@@ -11,7 +11,7 @@ const Weddings = () => {
   });
   return (
     <section className="weddings container py-3">
-      <div className="row w-md-75 mx-md-auto d-flex flex-column align-items-cent">
+      <div className="row w-md-75 mx-md-auto d-flex flex-column align-items-center">
         <div className="col">
           <p className="lead d-flex align-items-center fs-1 text-uppercase fw-lighter">
             weddings <span className="fs-4 px-2">-&-</span> events

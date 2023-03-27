@@ -10,7 +10,7 @@ const Home = () => {
     document.title = "DP Events | Home";
   });
   return (
-    <section className="container  pb-3">
+    <section className="container pb-3">
       <div className="row ">
         <div className="col d-flex flex-column justify-content-center">
           <img
