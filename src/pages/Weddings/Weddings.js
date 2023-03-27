@@ -10,7 +10,7 @@ const Weddings = () => {
     document.title = "DP Events | Wedding & Events";
   });
   return (
-    <section className="weddings container min-vh-100 py-3">
+    <section className="weddings container py-3">
       <div className="row w-md-75 mx-md-auto d-flex flex-column align-items-cent">
         <div className="col">
           <p className="lead d-flex align-items-center fs-1 text-uppercase fw-lighter">
@@ -20,7 +20,7 @@ const Weddings = () => {
         <hr />
       </div>
       {/* Day Of */}
-      <div className="row align-items-center py-3 ">
+      <div className="row d-flex flex-column flex-lg-row justify-content-center align-items-center py-3 ">
         <div className="col-8 col-md-6 col-lg-4">
           <figure className="figure">
             <img
@@ -31,7 +31,7 @@ const Weddings = () => {
           </figure>
         </div>
         <div className="col">
-          <p className="fs-1 fw-light text-center mb-0">Wedding Management </p>
+          <p className="fs-1 fw-bold text-center mb-0">Wedding Management </p>
           <p className="fw-light fst-italic text-center mb-2">
             (Was our "Day of")
           </p>
@@ -86,7 +86,7 @@ const Weddings = () => {
       <hr />
 
       {/* Partial */}
-      <div className="row flex-lg-row-reverse align-items-center py-3 ">
+      <div className="row row d-flex flex-column flex-lg-row justify-content-center align-items-center py-3 flex-lg-row-reverse ">
         <div className="col-8 col-md-6 col-lg-4">
           <figure className="figure">
             <img
@@ -97,7 +97,7 @@ const Weddings = () => {
           </figure>
         </div>
         <div className="col">
-          <p className="fs-1 fw-light text-center mb-0">Partial Planning</p>
+          <p className="fs-1 fw-bold text-center mb-0">Partial Planning</p>
           <a href="/contact" className="text-reset ">
             <p className="fs-6 fst-italic fw-light text-center">
               Contact us to get a quote
@@ -164,7 +164,7 @@ const Weddings = () => {
       <hr />
 
       {/* Full Service */}
-      <div className="row align-items-center py-3 ">
+      <div className="row d-flex flex-column flex-lg-row justify-content-center align-items-center py-3 ">
         <div className="col-8 col-md-6 col-lg-4">
           <figure className="figure">
             <img
@@ -175,7 +175,7 @@ const Weddings = () => {
           </figure>
         </div>
         <div className="col">
-          <p className="fs-1 fw-light text-center mb-0">Full Planning</p>
+          <p className="fs-1 fw-bold text-center mb-0">Full Planning</p>
           <a href="/contact" className="text-reset ">
             <p className="fs-6 fst-italic fw-light text-center ">
               Contact us to get a quote
@@ -246,23 +246,24 @@ const Weddings = () => {
       <hr />
 
       {/* events */}
-      <div className="row flex-lg-row-reverse align-items-center py-3">
+      <div
+        className="row d-flex flex-lg-row-reverse flex-column justify-content-center align-items-center py-3 "
+        id="events"
+      >
         <div className="col-8 col-md-6 col-lg-4">
           <figure className="figure">
             <img
               className="img-fluid rounded shadow-lg"
               src={Events}
               alt="wedding"
-              id="events"
             />
           </figure>
         </div>
         <div className="col">
-          <p
-            className="fs-1 fw-light mb-0 d-flex align-items-center justify-content-center"
-            id="events"
-          >
-            Events<span className="fs-4 px-2">-&-</span>Corporate Parties
+          <p className="fs-1 fw-bold mb-0 d-flex align-items-center justify-content-center">
+            Events
+            <span className="fs-4 px-2">-&-</span>
+            Corporate Parties
           </p>
           <a href="/contact" className="text-reset ">
             <p className="fs-6 fst-italic fw-light text-center">
@@ -282,12 +283,12 @@ const Weddings = () => {
               Handle ALL logistics with the event planning for optimum results.
             </li>
           </ul>
-          <p className="lead fs-6">
+          <p className=" fs-6">
             Once we are finished working alongside you to create the event's
             flow, layout, and activities, we handle everything associated with
             the event planning for optimum results.
           </p>
-          <p className="lead fs-6 ">
+          <p className=" fs-6 ">
             Our scope of services range from executing on the program topics
             designed to resonate with your audience, and developing the schedule
             for presenters, decorators, and catering staff.{" "}
@@ -303,18 +304,18 @@ const Weddings = () => {
       {/* Other */}
       <div className="row">
         <div className="col extras text-center py-3">
-          <span className="fs-2 fw-light">Decor Rentals: </span>
+          <span className="fs-2 fw-bold">Decor Rentals: </span>
           <p className="fs-6 fst-italic fw-light">
             Pricing available once design is complete.
           </p>
 
-          <span className="fs-2 fw-light">Extra help: </span>
+          <span className="fs-2 fw-bold">Extra help: </span>
           <p className="fs-6 fst-italic fw-light">
             (Bus tables, refill beverages and cocktail hour snacks, dump trash):
             $25 per hour, per helper
           </p>
 
-          <span className="fs-2 fw-light">
+          <span className="fs-2 fw-bold">
             Set up and take down of our rentals or your decor:{" "}
           </span>
           <p className="fs-6 fst-italic fw-light">Begins at $800</p>

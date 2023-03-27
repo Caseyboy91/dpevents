@@ -52,7 +52,7 @@ const Home = () => {
           />
           <a href="/weddings&events">
             <button
-              className="btn btn-dark btn-lg position-absolute top-50 start-50 translate-middle"
+              className="btn btn-dark btn-lg py-3 px-md-5 position-absolute top-50 start-50 translate-middle"
               type="button"
             >
               Weddings
@@ -65,9 +65,9 @@ const Home = () => {
             alt="table setting"
             className="position-relative img-fluid shadow-lg rounded"
           />
-          <HashLink smooth to="/weddings&events#events">
+          <HashLink to="/weddings&events#events">
             <button
-              className="btn btn-dark btn-lg position-absolute top-50 start-50 translate-middle"
+              className="btn btn-dark btn-lg py-3 px-md-5 position-absolute top-50 start-50 translate-middle"
               type="button"
             >
               Events
