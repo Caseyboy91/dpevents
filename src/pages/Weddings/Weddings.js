@@ -75,7 +75,7 @@ const Weddings = () => {
               personal items and gifts to allow you and family to relax and
               enjoy the celebration. <span>note:</span> If more help is needed,
               such as placing linens, centerpieces, place setting, etc., we do
-              not offer Decor services.
+              offer Decor services.
             </li>
           </ul>
           <p className="fw-bold text-center fst-italic">
@@ -153,7 +153,7 @@ const Weddings = () => {
               personal items and gifts to allow you and family to relax and
               enjoy the celebration. <span>note:</span> If more help is needed,
               such as placing linens, centerpieces, place setting, etc., we do
-              not offer Decor services.
+              offer Decor services.
             </li>
           </ul>
           <p className="fw-bold text-center fst-italic">
@@ -235,7 +235,7 @@ const Weddings = () => {
               personal items and gifts to allow you and family to relax and
               enjoy the celebration. <span>note:</span> If more help is needed,
               such as placing linens, centerpieces, place setting, etc., we do
-              not offer Decor services.
+              offer Decor services.
             </li>
           </ul>
           <p className="fw-bold text-center fst-italic">
