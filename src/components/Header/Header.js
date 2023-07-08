@@ -3,7 +3,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <header className="navbar navbar-expand-md sticky-top border bg-light bg-gradient ">
+    <header className="navbar navbar-expand-lg sticky-top border bg-light bg-gradient ">
       <div className="container d-flex">
         <a href="/" className="navbar-brand ">
           <img src={Logo} alt="dp events" className="img-fluid logo border" />
@@ -44,6 +44,11 @@ const Header = () => {
             <li className="nav-item pe-3">
               <a href="/gallery" className="nav-link">
                 Gallery
+              </a>
+            </li>
+            <li className="nav-item pe-3">
+              <a href="/reviews" className="nav-link">
+                Reviews
               </a>
             </li>
             <li className="nav-item">
