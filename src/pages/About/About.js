@@ -30,23 +30,26 @@ const About = () => {
             <hr className="w-50" />
           </p>
           <p className=" fs-5 fw-light fst-italic ">
-            Born in the vibrant city of Las Vegas, Nevada, my heart has always
-            been in Idaho where I have spent most of my life. I am beyond
-            blessed with a wonderful family that includes amazing children and
-            grandchildren who are an integral part of my life.
+            Hailing from the vibrant city of Las Vegas, Nevada, my heart has
+            always had a special place for Idaho, where I've cherished most of
+            life's moments. I consider myself incredibly fortunate to have a
+            delightful family, including amazing children and grandchildren who
+            hold an indispensable role in my life.
             <br />
             <br />
-            One of the highlights of my career in the event industry was the
-            opportunity to work alongside the legendary Preston Bailey and David
-            Tutera as a Coordinator for Interns at their "Your Wedding
-            Experience" wedding show in Philadelphia, PA and Fort Lauderdale,
-            FL.
+            One of the most memorable chapters in my career within the event
+            industry was the privilege of collaborating with the esteemed
+            Preston Bailey and David Tutera. I had the opportunity to work as a
+            Coordinator for Interns at their remarkable "Your Wedding
+            Experience" wedding show, held in Philadelphia, PA, and Fort
+            Lauderdale, FL.
             <br />
             <br />
-            As an event planner, I am passionate about bringing my client's
-            visions to life and sharing my creativity to make people smile. I
-            can't wait to meet with you and embark on a creative journey
-            together!
+            As an event planner, my utmost passion lies in bringing my clients'
+            visions to life, and nothing brings me greater joy than sharing my
+            creativity to bring smiles to people's faces. I am eagerly looking
+            forward to meeting you and embarking on an exciting and
+            collaborative journey together!
           </p>
         </div>
       </div>
