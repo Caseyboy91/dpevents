@@ -24,21 +24,22 @@ const Home = () => {
       <div className="row home-text">
         <div className="col d-flex flex-column justify-content-center py-5 ">
           <p className="lead fw-light fst-italic lh-lg fs-5 pb-3 w-75 mx-auto">
-            "At Diane Pugmire Events, we strive to create a guest experience
-            that embodies a multitude of adjectives - from fun and energetic to
-            classic and romantic. Our team of dedicated wedding and event
-            planners are detail-oriented, committed to working within your
-            budget, and known for their honesty and reliability, as attested to
-            by our vendors and clients alike.
+            "At Diane Pugmire Events, our mission is to craft a guest experience
+            that encompasses a diverse range of qualities - from joyful and
+            lively to timeless and enchanting. We pride ourselves on meticulous
+            attention to detail, unwavering commitment to working within your
+            budget, and reputation for honesty and dependability, as endorsed by
+            both vendors and clients alike.
             <br />
             <br />
-            We believe that your wedding or event should reflect your unique
-            personality and style, and that's why we take the time to get to
-            know you and understand your desires from start to finish. Whether
-            you're based in Idaho, or on the coast, we've had the pleasure of
-            working with satisfied clients all over the country. Choose Diane
-            Pugmire Events for an unforgettable and personalized event planning
-            experience."
+            We firmly believe that your wedding or event should be a true
+            reflection of your individuality and taste. That's why we invest the
+            time to truly get to know you and understand your desires from
+            beginning to end. Whether you reside in the beautiful state of Idaho
+            or reside by the coast, we have had the pleasure of serving
+            delighted clients all across the nation. Opt for Diane Pugmire
+            Events for an unforgettable and personalized event planning
+            experience that will leave a lasting impression."
           </p>
           <p className="fw-bold fst-italic fs-6 pe-5 d-flex justify-content-end">
             ~ Diane Pugmire
