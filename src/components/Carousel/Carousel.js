@@ -1,6 +1,11 @@
 const Carousel = () => {
   const carouselImages = [
     {
+      id: 1,
+      img: "https://i.imgur.com/sXCXrGF.png",
+      alt: "gatsby theme event",
+    },
+    {
       id: 2,
       img: "https://i.pinimg.com/originals/f8/d3/61/f8d36127b03a4df2b7946de612167125.jpg",
       alt: "guest seating outside",
@@ -46,12 +51,8 @@ const Carousel = () => {
     <>
       {carouselImages.map((image) => {
         return (
-          <div className="carousel-item " id={image.id}>
-            <img
-              src={image.img}
-              alt={image.alt}
-              className="d-block img-fluid w-50 mx-auto"
-            />
+          <div className="col-md-6 col-lg-4" id={image.id}>
+            <img src={image.img} alt={image.alt} className="img-fluid m-3 " />
           </div>
         );
       })}
