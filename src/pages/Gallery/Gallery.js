@@ -5,6 +5,7 @@ import WeddingWire from "../../assets/icons/weddingwire.png";
 import Knot from "../../assets/icons/theknot.png";
 import "./Gallery.css";
 import Carousel from "../../components/Carousel/Carousel";
+import Video from "../../assets/videos/Misty-Richard.mp4";
 
 const Gallery = () => {
   useEffect(() => {
@@ -18,49 +19,17 @@ const Gallery = () => {
         </div>
         <hr />
       </div>
-      <div className="row w-md-75 mx-md-auto py-3">
-        <div class="col">
-          <div
-            id="slides-with-controls"
-            class="carousel slide carousel-fade"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-inner shadow carousel" id="1">
-              <div class="carousel-item active">
-                <img
-                  class="d-block img-fluid w-50 mx-auto"
-                  src="https://i.imgur.com/wLdTLqW.jpg"
-                  alt="candle setting"
-                />
-              </div>
-              <Carousel />
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#slides-with-controls"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#slides-with-controls"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
+      <p className="fs-2">Video</p>
+      <div className="w-75 mx-auto my-3">
+        <p className="fs-3 fw-lighter">Misty & Richard 2023</p>
+        <video controls width="100%">
+          <source src={Video} type="video/mp4" />
+        </video>
+      </div>
+      <hr />
+      <p className="fs-2">Images</p>
+      <div className="row d-flex justify-content-center align-items-center">
+        <Carousel />
       </div>
       <hr />
       <div className="row d-flex justify-content-between py-3">
