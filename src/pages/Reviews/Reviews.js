@@ -62,7 +62,7 @@ const Reviews = () => {
           <div>
             <p className="fs-4 fw-bold">Diane is Amazing</p>
           </div>
-          <div className="review-text overflow-scroll">
+          <div className="review-text">
             <p className="fs-6">
               When planning our daughter’s wedding, I wasn’t sure we needed a
               wedding planner, but thought a Day of Coordinator would be nice to
