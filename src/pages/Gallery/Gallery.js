@@ -4,7 +4,7 @@ import Pinterest from "../../assets/icons/pinterest.svg";
 import WeddingWire from "../../assets/icons/weddingwire.png";
 import Knot from "../../assets/icons/theknot.png";
 import "./Gallery.css";
-import Carousel from "../../components/Carousel/Carousel";
+import Images from "../../components/Images/Images";
 import Video from "../../assets/videos/Misty-Richard.mp4";
 
 const Gallery = () => {
@@ -29,7 +29,7 @@ const Gallery = () => {
       <hr />
       <p className="fs-2">Images</p>
       <div className="row d-flex justify-content-center align-items-center">
-        <Carousel />
+        <Images />
       </div>
       <hr />
       <div className="row d-flex justify-content-between py-3">
